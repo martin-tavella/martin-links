@@ -11,11 +11,10 @@
 <body class="max-w-xl mx-auto min-h-screen bg-gradient-to-b from-black via-sky-900 to-gray-800">
     <header class="text-white">
         <img src="assets/me-big.webp" alt="martin sonriendo"
-        
-        class="h-130 object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-70%"
-        >
+            class="h-130 object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-70%">
         <div class="flex flex-col justify-center items-center p-4 mb-8 -mt-12 ">
-            <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-black rounded-full shadow-sm flex items-center bg-black/65 cursor-crosshair z-1">
+            <span
+                class="text-sky-400 text-xl font-mono px-3 py-1 border border-black rounded-full shadow-xs flex items-center bg-black/65 cursor-crosshair z-1">
                 @martin-tavella
             </span>
             <h1 class="text-3xl font-extrabold leading-tight mt-1">
@@ -24,15 +23,14 @@
         </div>
 
         <section class="flex gap-2 justify-center">
-            <a class="bg-gray-950 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
-                href="https://github.com/martin-tavella" target="_blank" aria-label="GitHub"
-                title="Ir a GitHub de Martín Tavella">
+            <a class="bg-gray-950 social-button" href="https://github.com/martin-tavella" target="_blank"
+                aria-label="GitHub" title="Ir a GitHub de Martín Tavella">
                 <svg width="28" heigth="28">
                     <use xlink:href="./assets/sprite.svg#github" />
                 </svg>
             </a>
 
-            <a class="bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-500 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-500 social-button"
                 href="https://instagram.com/martin-tavella" target="_blank" aria-label="Instagram"
                 title="Ir a Instagram de Martín Tavella">
                 <svg width="28" height="28">
@@ -40,32 +38,72 @@
                 </svg>
             </a>
 
-            <a class="bg-white p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
-                href="https://youtube.com/@martin-tavella" target="_blank" aria-label="YouTube"
-                title="Ir a YouTube de Martín Tavella">
+            <a class="bg-white social-button" href="https://youtube.com/@martin-tavella" target="_blank"
+                aria-label="YouTube" title="Ir a YouTube de Martín Tavella">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#youtube" />
                 </svg>
             </a>
-            <a class="bg-black p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
-                href="https://x.com/martin-tavella" target="_blank" aria-label="X (Twitter)"
-                title="Ir a X (Twitter) de Martín Tavella">
+            <a class="bg-black social-button" href="https://x.com/martin-tavella" target="_blank"
+                aria-label="X (Twitter)" title="Ir a X (Twitter) de Martín Tavella">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#x" />
                 </svg>
             </a>
-            <a class="bg-white p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
-                href="https://linkedin.com/in/martin-tavella" target="_blank" aria-label="LinkedIn"
-                title="Ir a LinkedIn de Martín Tavella">
+            <a class="bg-white social-button" href="https://linkedin.com/in/martin-tavella" target="_blank"
+                aria-label="LinkedIn" title="Ir a LinkedIn de Martín Tavella">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#linkedin" />
                 </svg>
             </a>
         </section>
-        <p class="text-primary text-center mt-4 text-sm">
-            Desarrollador Fullstack, con ganas de aprender y brindar soluciones efectivas y escalables. JavaScript | React | Node.js
+        <p class="text-primary text-center mt-4 text-xl px-5 text-balance">
+            Desarrollador Fullstack, con ganas de aprender y brindar soluciones efectivas y escalables. JavaScript |
+            React | Node.js
         </p>
     </header>
+    <main class="pt-4 text-white">
+        <div class="grid grid-cols-4 grid-rows-2 gap-2 w-full">
+            <a
+                class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-900 via-cyan-700 to-cyan-500 border border-cyan-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+                <span class="absolute bottom-2 font-bold text-2xl group-hover:text-cyan-400 transition">React.js</span>
+                <svg width="100" height="100"
+                    class="absolute -right-4 -bottom-4 -rotate-6 size-30 group-hover:-rotate-15 group-hover:scale-108 transition">
+                    <use xlink:href="./assets/sprite.svg#react" />
+                </svg>
+                <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Intermedio</span>
+            </a>
+            <a
+                class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-600 via-green-800 to-green-900 border border-cyan-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+                <span
+                    class="absolute left-3 bottom-2 font-bold text-2xl group-hover:text-green-600 transition">Node.js</span>
+                <svg width="100" height="100"
+                    class="absolute -right-4 -bottom-4 -rotate-6 size-24 group-hover:-rotate-15 group-hover:scale-108 transition">
+                    <use xlink:href="./assets/sprite.svg#node" />
+                </svg>
+                <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Intermedio</span>
+                <a
+                    class="relative rounded-3xl overflow-hidden bg-gradient-to-tl from-blue-600 via-blue-700 to-blue-900 border border-cyan-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+                    <span
+                        class="absolute left-3 bottom-2 font-bold text-2xl group-hover:text-cyan-500 transition">TypeScript</span>
+                    <svg width="100" height="100"
+                        class="absolute -right-1 -bottom-2 size-24 group-hover:-rotate-15 group-hover:scale-108 transition">
+                        <use xlink:href="./assets/sprite.svg#typescript" />
+                    </svg>
+                    <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Básico</span>
+                </a>
+                <a
+                    class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-yellow-400 via-yellow-400 to-yellow-500 border border-cyan-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+                    <span
+                        class="absolute left-3 bottom-2 font-bold text-2xl group-hover:text-black transition">JavaScript</span>
+                    <svg width="100" height="100"
+                        class="absolute -right-1 -bottom-2 size-24 group-hover:-rotate-15 group-hover:scale-108 transition rounded-[7px]">
+                        <use xlink:href="./assets/sprite.svg#javascript" />
+                    </svg>
+                    <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Avanzado</span>
+                </a>
+        </div>
+    </main>
 </body>
 
 </html>
